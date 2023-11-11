@@ -45,14 +45,15 @@
 #     else :
 #         print ("demasaido alto")
 #     adivina = int(input("ingresa el numero"))           
+  #print( "haz ganado")
 
 
+#ejercicio bucles for
 
-#ejercicio 3 
+
+#ejercicio 1
+
+numero = int ( input("ingresa un numero"))
 
 
-for " * " in range(5) :
-    for " " in range (1):
-        print(f "*",[*]," ",[ ])
- 
    

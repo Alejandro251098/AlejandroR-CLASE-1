@@ -31,7 +31,7 @@
 
 # Ejercicio 3 :Calculadora de descuento
 
-#precio = int(input("ingrese el valor del producto"))
+# precio = int(input("ingrese el valor del producto"))
 # edad = int(input("ingrese su edad"))
 
 
@@ -43,6 +43,16 @@
     
 # if edad >=18 and edad < 65 :
 #     print(precio)  
+
+# ----------------------------
+# if edad < 18 :
+#    print(precio*0.9)
+   
+# elif edad >= 65 :
+#    print(precio*0.85)
+
+# else :
+#    print(precio)         
 
 
 
@@ -111,7 +121,7 @@
 #     else :
 #         print ("demasaido alto")
 #     adivina = int(input("ingresa el numero"))           
-#  print("haz ganado")
+# print("haz ganado")
 
 
 # BUCLES "for "
@@ -142,13 +152,12 @@
  
 # EJERCICIO 3 : Patron de asteriscos 
 
-# num = int(input("ingrese un valor"))
+num = int(input("ingrese un valor"))
 
-# for num in range ( 1 , num +1):
-#   for  n in range (num ):
-#      print("*" , end= "")
-#   print("")
-
+for num in range ( 1 , num +1):
+  for  n in range (num ):
+     print("*" , end="*")
+  print("")
 
 # CONDICIONALES Y BUCLES 
 
@@ -181,18 +190,18 @@
 # print( "La cantidad de vocales es :", contar_vocales(cadena))
 
 
-cadena= input("frase:")
+# cadena= input("frase:")
 
-contador_voc = 0
+# contador_voc = 0
 
-index= 0
+# index= 0
 
-while index < len(cadena) :
-   letra= cadena[index] 
-   if letra.lower() in "aeiou":
-      contador_voc +=1  
-   index +=1
-print("la cantidad es ", contador_voc )   
+# while index < len(cadena) :
+#    letra= cadena[index] 
+#    if letra.lower() in "aeiou":
+#       contador_voc +=1  
+#    index +=1
+# print("la cantidad es ", contador_voc )   
 
 
 # EJERCICIO 3 : numeros primos for if y else
